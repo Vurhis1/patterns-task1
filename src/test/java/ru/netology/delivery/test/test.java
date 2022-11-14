@@ -1,12 +1,10 @@
 package ru.netology.delivery.test;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.Keys;
 import ru.netology.delivery.data.DataGenerator;
-
 import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.*;
